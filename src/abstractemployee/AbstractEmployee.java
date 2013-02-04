@@ -15,5 +15,14 @@ public class AbstractEmployee {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Employee person = new HourlyEmployee();
+        Employee staff = new SaleryEmployee();
+        
+        person.setFirstName("Corbin");
+        person.setLastName("Dillman");
+        
+        
+        System.out.print(person.getFirstName() + " " +person.getLastName() + " makes $");
     }
 }

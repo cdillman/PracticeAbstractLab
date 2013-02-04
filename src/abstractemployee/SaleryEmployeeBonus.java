@@ -8,6 +8,7 @@ package abstractemployee;
  *
  * @author Corbin
  */
-public class SaleryEmployeeBonus {
+public class SaleryEmployeeBonus extends SaleryEmployee{
+    private double bonus;
     
 }
